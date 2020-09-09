@@ -41,7 +41,7 @@ service governance follows the version of Dubbo 2.7, and compatible for Dubbo 2.
     * `mvn --projects dubbo-admin-server spring-boot:run`  
     OR
     * `cd dubbo-admin-distribution/target`;   `java -jar dubbo-admin-0.1.jar`
-5. Visit `http://localhost:8080`
+5. Visit `http://localhost:8060`
 6. Default username and password is `root`
 ---
 
@@ -55,7 +55,7 @@ service governance follows the version of Dubbo 2.7, and compatible for Dubbo 2.
   
 ### Swagger support
 
-Once deployed, you can check http://localhost:8080/swagger-ui.html to check all restful api and models
+Once deployed, you can check http://localhost:8060/swagger-ui.html to check all restful api and models
 
 
 ### License

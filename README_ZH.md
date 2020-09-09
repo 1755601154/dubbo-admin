@@ -39,7 +39,7 @@
    * `mvn --projects dubbo-admin-server spring-boot:run`   
    或者   
    * `cd dubbo-admin-distribution/target; java -jar dubbo-admin-0.1.jar`
-5. 访问 `http://localhost:8080`
+5. 访问 `http://localhost:8060`
 ---
 
 ### 开发环境配置
@@ -52,4 +52,4 @@
 
 ### Swagger 支持
 
-部署完成后，可以访问 http://localhost:8080/swagger-ui.html 来查看所有的restful api
+部署完成后，可以访问 http://localhost:8060/swagger-ui.html 来查看所有的restful api
