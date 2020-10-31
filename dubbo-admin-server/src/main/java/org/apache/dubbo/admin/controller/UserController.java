@@ -20,6 +20,7 @@ import org.apache.dubbo.admin.annotation.Authority;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -36,6 +37,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @RestController
 @RequestMapping("/api/{env}/user")
+@EnableScheduling
 public class UserController {
     public static Map<String /*token*/, User /*user info*/> tokenMap = new ConcurrentHashMap<>();
 
